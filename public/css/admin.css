@@ -1,0 +1,46 @@
+.image-box {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #999;
+    padding: 3px;
+}
+
+.sound-box {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #999;
+    padding: 3px;
+    background: url("../images/sound.png");
+    background-size: 100%;
+}
+
+.sound-box:hover {
+    opacity: 0.8;
+}
+
+.image-box:hover, .sound-box:hover {
+    cursor: pointer;
+}
+
+.image-box img, .sound-box img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.no-image {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #999;
+    padding: 3px;
+    background: url("../images/no-image.jpg");
+    background-size: 100%;
+}

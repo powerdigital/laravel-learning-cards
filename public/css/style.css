@@ -1,0 +1,113 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+    padding: 60px 0;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #7abaff !important;
+}
+
+.navbar ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar li {
+    display: block;
+}
+
+.logo-block li {
+    padding: 0.3rem;
+    float: left;
+    margin-right: 5px;
+}
+
+.navbar .dropdown li {
+    padding: .5rem 1rem;
+}
+
+.home {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 0.2rem;
+    background: url('../images/home.jpg') 0 0 no-repeat;
+    background-size: 100% auto;
+    border-radius: 0.2rem;
+}
+
+.card-footer {
+    padding: .5rem 1rem 0 !important;
+}
+
+.card-sound {
+    display: block;
+    width: 20%;
+    height: 100%;
+    margin-top: .3rem;
+    float: left;
+    margin-right: 1rem;
+    background: url('../images/sound.png') 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.card-title {
+    float: left;
+}
+
+.card-title > * {
+    margin-bottom: .2rem !important;
+}
+
+.card-body img {
+    max-width: 100%;
+    max-height: 15rem;
+}
+
+.sound {
+    cursor: pointer;
+}
+
+.panel-default {
+    border-color: #d3e0e9;
+}
+
+.panel {
+    margin-bottom: 22px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-body {
+    padding: 15px;
+}
+.panel-body:before, .panel-body:after {
+    content: " ";
+    display: table;
+}
+.panel-body:after {
+    clear: both;
+}
+.panel-default > .panel-heading {
+    color: #333333;
+    background-color: #fff;
+    border-color: #d3e0e9;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

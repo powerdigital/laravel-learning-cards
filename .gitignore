@@ -1,0 +1,13 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/debugbar
+/vendor
+.env
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+.idea
+.phpstorm.meta.php
+_ide_helper*
