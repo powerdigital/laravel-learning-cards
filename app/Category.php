@@ -59,6 +59,8 @@ class Category extends Model
      */
     protected $fillable = ['name', 'title'];
 
+    public $timestamps = null;
+
     public function cards()
     {
         $this->hasMany(Card::class);

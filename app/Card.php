@@ -54,6 +54,8 @@ class Card extends Model
      */
     protected $fillable = ['name', 'title', 'category_id'];
 
+    public $timestamps = null;
+
     function categories()
     {
         $this->belongsTo(Category::class);
